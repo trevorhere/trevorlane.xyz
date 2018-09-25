@@ -1,0 +1,27 @@
+{
+  "name": "recroot-box",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "http://trevorhere.github.io/trevorlane.xyz",
+  "dependencies": {
+    "react": "^16.4.1",
+    "react-awesome-modal": "^2.0.5",
+    "react-bar-chart": "^0.1.2",
+    "react-dom": "^16.4.1",
+    "react-scripts": "1.1.4",
+    "react-scrollable-list": "^1.2.0",
+    "recharts": "^1.0.0-beta.10"
+  },
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "gh-pages": "^2.0.0",
+    "react-static-generator": "^0.1.2"
+  }
+}
